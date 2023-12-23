@@ -14,7 +14,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-#InsertName {
+#insertName {
     width: 70%;
     padding: 10px;
     margin-right: 10px;
@@ -31,10 +31,21 @@ body {
 }
 
 #result {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #555;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#result p {
+    margin: 5px 0;
+    color: #87CEEB;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#result img {
+    max-width: 20%;
+    border-radius: 5px;
+    margin-top: 10px;
 }
